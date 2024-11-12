@@ -16,22 +16,17 @@
 
 ## Testing and Data Recording
 
-1. The subject was asked to sit down and relax on a comfortable chair.
-2. The recording was performed in a single day per subject with the same order of tasks.
-3. A non-noisy two minutes recording was segmented from the raw data.
-4. The recording involves the acquisition of the electroencephalographic signal as follows:
-    1. Three minutes of resting-state, eyes open for three sessions.
-    2. Three minutes of resting-state, eyes closed for three sessions.
-    3. Non-Related experiment (Not provided in the dataset).
-    4. Three minutes of resting-state, eyes open for three sessions using noise isolation headset.
-    5. Non-Related experiment (Not provided in the dataset).
-    6. Three minutes of resting-state, eyes open for three sessions using noise isolation headset.
-    7. Three minutes of listening to a song in their native language using in-ear headphones.
-    8. Three minutes of listening to a song in a non-native language using in-ear headphones.
-    9. Three minutes of listening to neutral music using in-ear headphones.
-    10. Three minutes of listening to a song in their native language using bone-conducting headphones.
-    11. Three minutes of listening to a song in a non-native language using bone-conducting headphones.
-    12. Three minutes of listening to neutral music using bone-conducting headphones.
+
+1. Three minutes of resting-state, eyes open for three sessions.
+2. Three minutes of resting-state, eyes closed for three sessions.
+3. Three minutes of resting-state, eyes open for three sessions using noise isolation headset.
+4. Three minutes of resting-state, eyes open for three sessions using noise isolation headset.
+5. Three minutes of listening to a song in their native language using in-ear headphones.
+6. Three minutes of listening to a song in a non-native language using in-ear headphones.
+7. Three minutes of listening to neutral music using in-ear headphones.
+8. Three minutes of listening to a song in their native language using bone-conducting headphones.
+9. Three minutes of listening to a song in a non-native language using bone-conducting headphones.
+10. Three minutes of listening to neutral music using bone-conducting headphones.
 
 **Notes:**
 - If the person is Italian: the Arabic song was used for the non-Native song.
