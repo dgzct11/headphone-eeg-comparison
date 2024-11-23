@@ -1,8 +1,26 @@
 # Matlab script
 
-The script will loop through the filtered_data folder and extract all the voltage information, apply the FFT
+## Overview
+The script will loop through the filtered_data folder and extract all the voltage information, apply the FFT, and store it in a struct data type names `EEG_Analyzed_Data`. It also contains the code to plot accross electrodes and experiments for a given patient.
 
-# Methods
+You have to change the file path in the first line of the script ot point to the place where `filtered_data` is stored on your computer. Just open filtered_data in file explorer, go to the bar on the top where it shows which folders you're in, right click and copy address as text.
+
+## Accessing Data
+The data is stored in `EEG_Analyzed_Data`, and can be accessed using the following syntax: 
+```
+EEG_Analyzed_Data.(subject).(experiment).(electrode)
+```
+for example, with the patient `s01` experiment `ex05` and electrode `right_parietal`, the code to access the FFT data is 
+```
+EEG_Analyzed_Data.s01.ex05.right_parietal
+```
+This will return an array where each index corresponds to a frequency, and the value in the array at the index represents the strength of the frequency. 
+
+# not our stuff
+-----------------------------------------------------------
+
+
+# Data SET Methods 
 ## Determination of Eligibility
 
 1. The subjects filled out a questionnaire that contains the subjects’ information.
