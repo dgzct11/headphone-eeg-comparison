@@ -1,5 +1,8 @@
-# Methods
+# Matlab script
 
+The script will loop through the filtered_data folder and extract all the voltage information, apply the FFT
+
+# Methods
 ## Determination of Eligibility
 
 1. The subjects filled out a questionnaire that contains the subjects’ information.
